@@ -1,0 +1,11 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make the grid take up the full viewport height */
+}
+
+.grid > div {
+    display: flex;
+}
